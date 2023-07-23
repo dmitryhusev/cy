@@ -16,7 +16,7 @@ npm install
 ```bash
 node app.js
 ```
-4. Open another shell and run the tests
+4. Open another shell and run the tests (which are ./cypress/e2e)
 ```
 npx cypress run
 ```
