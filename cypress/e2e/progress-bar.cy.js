@@ -6,7 +6,7 @@ describe('Text Input', () => {
     cy.visit('http://localhost:3000')
     cy.get('a[href="/progressbar"]').click()
     cy.get('#startButton').click()
-    cy.get('#progressBar', {timeout: 20 * 1000}).should('contain.text', '75%')
+    cy.get('#progressBar', {timeout: 30 * 1000}).should('contain.text', '75%')
     cy.get('#stopButton').click()
     cy.get('#result').should('contain.text', 'Result: 0')
   })

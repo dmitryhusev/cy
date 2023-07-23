@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 require('@cypress/xpath');
 
-
 describe('Dynamic Table', () => {
   const chrome_xpath = '//span[text()="Chrome"]/following-sibling::span[contains(text(), "%")]'
   it('compares two values', () => {

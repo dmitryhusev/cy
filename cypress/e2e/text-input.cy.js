@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 require('@cypress/xpath');
 
-
 describe('Text Input', () => {
   it('checks text input', () => {
     let textToInput = 'some text'

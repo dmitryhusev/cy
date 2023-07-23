@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-
 describe('Ajax data', () => {
   it('checks if element is visible on screen may be a non trivial task', () => {
     cy.visit('http://localhost:3000')

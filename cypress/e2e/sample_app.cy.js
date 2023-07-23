@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 require('@cypress/xpath');
 
-
 describe('Sample App', () => {
   let email = 'admin@admin.com'
   it('cheks login with valid credentials', () => {

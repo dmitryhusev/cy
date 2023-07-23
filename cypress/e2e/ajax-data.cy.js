@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-
 describe('Ajax data', () => {
   it('should be able to wait for an element to show up', () => {
     cy.visit('http://localhost:3000')
