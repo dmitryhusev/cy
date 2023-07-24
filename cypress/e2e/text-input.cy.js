@@ -3,7 +3,7 @@ require('@cypress/xpath');
 
 describe('Text Input', () => {
   it('checks text input', () => {
-    let textToInput = 'some text'
+    const textToInput = 'some text'
     cy.visit('http://localhost:3000')
     cy.get('a[href="/textinput"]').click()
     cy.get('#newButtonName').type(textToInput)

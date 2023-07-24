@@ -2,7 +2,7 @@
 require('@cypress/xpath');
 
 describe('Sample App', () => {
-  let email = 'admin@admin.com'
+  const email = 'admin@admin.com'
   it('cheks login with valid credentials', () => {
     cy.visit('http://localhost:3000')
     cy.get('a[href="/sampleapp"]').click()
