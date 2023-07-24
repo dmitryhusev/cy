@@ -8,11 +8,11 @@
 ## Usage
 
 1. Open project in the editor/ide
-2. In the root of the project run
+2. In the root directory run
 ```bash
 npm install
 ```
-3. Launch application
+3. Launch an application (System under test)
 ```bash
 node app.js
 ```
