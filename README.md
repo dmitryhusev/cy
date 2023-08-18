@@ -1,4 +1,4 @@
-# QA Challenge
+# Cypress project
 
 
 ## Prerequisites
